@@ -4,13 +4,17 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!--Changed title to be more defining-->
     <title>Horiseon Main Page</title>
 </head>
 
 <body>
+    <!-- Redefined div to header and removed class "header" as it was redundant -->
     <header>
-        <h1>Hori<span id="seo">seo</span>n</h1>        
+        <h1>Hori<span id="seo">seo</span>n</h1>
+        <!--Redefined div as nav-->        
         <nav>
+            <!--Removed the spacing in between each list as it visually looked unapealing to have so much open space-->
             <ul>
                 <li><a href="#search-engine-optimization">Search Engine Optimization</a></li>
                 <li><a href="#online-reputation-management">Online Reputation Management</a></li>
@@ -19,9 +23,15 @@
         </nav>>
     </header>
 
+    <!--Redefined div as figure to better represent the content as well as removing class hero-->
     <figure title="Getting to Work"></figure>
 
+    <!--Redefined div as a section as these elements were closely related; as well as changed "content" to an id rather than a class due to it being unique-->
     <section id="content">
+        <!--Redefined the following divs as articles as each of these elements represents a box of text-->
+        <!--Removed the previous class tags and point everything to article-->
+        <!--Added alt attributes for each of the images for better accesibilty-->
+        <!--Removed the spacing in between each p tag as it visually looked unapealing to have so much open space-->
         <article id="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" alt="" class="float-left" />
             <h2>Search Engine Optimization</h2>
@@ -41,6 +51,10 @@
         </article>
     </section>
 
+    <!--Removed the div that added class "benefits" as each following element was serving the same purpose but with different descriports-->
+    <!--Redefined the follwing div as an article to better organize this section of elements-->
+    <!--Added alt attributes for each of the images for better accesibilty-->
+    <!--Removed the spacing in between each p tag as it visually looked unapealing to have so much open space-->
     <aside>
         <h3>Lead Generation</h3>
         <img src="./assets/images/lead-generation.png" />
@@ -55,6 +69,9 @@
         <p>As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.</p>
     </aside>
 
+    <!--Redefined div as footer and removed class "footer" as it was redundant-->
+    <!--Redefined the header tag from an h2 to a h4 for sizing an consolidation of the css a little-->
+    <!--Removed the spacing in between the p tag as it visually looked unapealing to have so much open space -->
     <footer>
         <h4>Made with ❤️️ by Horiseon</h4>
         <p>&copy; 2019 Horiseon Social Solution Services, Inc.</p>
